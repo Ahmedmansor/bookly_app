@@ -1,4 +1,4 @@
-import 'package:bookly_app/app_root.dart';
+import 'package:bookly_app/appRoot/app_root.dart';
 import 'package:flutter/material.dart';
 
 void main() {
