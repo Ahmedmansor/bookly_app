@@ -12,7 +12,8 @@ abstract class NavigationUtitils {
     routes: [
       GoRoute(
         path: '/',
-        builder: (context, state) => const SplashView(),
+        // builder: (context, state) => const SplashView(),
+        builder: (context, state) => const BookDetailsView(),
       ),
       GoRoute(
         path: kHomeView,
