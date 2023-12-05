@@ -50,7 +50,7 @@ class BookDetailsViewBody extends StatelessWidget {
                 const SizedBox(
                   height: 37,
                 ),
-                BookActions(),
+                const BookActions(),
                 const Expanded(
                   child: SizedBox(
                     height: 50,
@@ -66,7 +66,10 @@ class BookDetailsViewBody extends StatelessWidget {
                 const SizedBox(
                   height: 16,
                 ),
-                YouCanAlsoLikeListView(),
+                const YouCanAlsoLikeListView(),
+                const SizedBox(
+                  height: 40,
+                ),
               ],
             ),
           ),
